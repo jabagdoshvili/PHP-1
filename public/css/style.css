@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-footer {
+    background-color: #f5f5fa;
+}
+
+.main-container {
+    padding: 50px 0;
+}
+
+.main-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.main-container p {
+    text-align: center;
+}
+
+.dark  {
+    background-color: #202124 !important;
+    color: white !important;
+}
+
+.dark .footer-copyright {
+    color: #202124 !important;
+}
+
+.dark h5 {
+    color: #202124 !important;
+}
+
+.light  {
+    background-color: white !important;
+    color: #202124 !important;
+}
