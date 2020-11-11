@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PageController;
+use App\Http\Controllers\EmployController;
+use App\Http\Controllers\CompanyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +15,5 @@ use App\Http\Controllers\PageController;
 */
 
 
-Route::get('/',[PageController::class,'index']);
-Route::get('/about',[PageController::class,'about']);
-Route::get('/contact',[PageController::class,'contact']);
+Route::resource('employees',EmployController::class);
+Route::resource('companies',CompanyController::class);
